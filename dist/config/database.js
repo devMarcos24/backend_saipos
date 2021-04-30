@@ -10,8 +10,8 @@ module.exports = {
   dialect: process.env.DATABASE_DIALECT,
   port: process.env.DATABASE_PORT,
   define: {
-    timestamps: true
-  } // host: "localhost",
+    timestamps: true,
+  }, // host: "localhost",
   // username: "postgres",
   // password: "docker",
   // database: "postgres",
@@ -20,5 +20,4 @@ module.exports = {
   // define: {
   //   timestamps: false,
   // },
-
 };
